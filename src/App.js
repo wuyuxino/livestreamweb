@@ -6,6 +6,7 @@ import JSMpeg from "@cycjimmy/jsmpeg-player";
 const { Search } = Input;
 
 function App() {
+  const [stop, setStop] = useState(false);
   const [videomap, setVideomap] = useState([]);
   const [audiomap, setAudiomap] = useState([]);
   const [searchRTSP, setSearchRTSP] = useState('');
@@ -35,13 +36,18 @@ function App() {
 
             const newArray = [...videoList]
             setVideomap(newArray)
+
+            console.log('------我的状态是------', stop)
+            if (stop) { return }
+            order++
+            recursionDesiredVideo(url, time, name, order);
+          } else {
+            messageApi.info('请检查当前直播流是否可用!')
           }
         })
         .catch(error => {
           console.error(error);
         });
-      order++
-      recursionDesiredVideo(url, time, name, order);
     } catch (error) {
       console.error('请求出错: ', error);
     }
@@ -68,13 +74,17 @@ function App() {
 
             const newArray = [...audioList]
             setAudiomap(newArray)
+
+            console.log('------我的状态是------', stop)
+            if (stop) { return }
+
+            order++
+            recursionDesiredAudio(url, time, name, order);
           }
         })
         .catch(error => {
           console.error(error);
         });
-      order++
-      recursionDesiredAudio(url, time, name, order);
     } catch (error) {
       console.error('请求出错: ', error);
     }
@@ -138,9 +148,10 @@ function App() {
       // 取消事件的默认动作
       event.preventDefault();
       // Chrome 需要设置 returnValue
-      event.returnValue = '';
+      event.returnValue = '用户即将离开页面';
       // 可以在这里添加自定义逻辑，例如询问用户是否确认离开
       console.log('用户即将离开页面');
+      setStop(true);
       stopRtsp();
       return '';
     };
@@ -185,6 +196,7 @@ function App() {
                 videoList = []
                 audioList = []
                 if (text.trim().length) {
+                  setStop(false)
                   playRtsp(text, 9999)
                   recursionDesiredVideo(text, 30, "cf_video", 1)
                   recursionDesiredAudio(text, 30, "cf_audio", 1)
@@ -200,13 +212,16 @@ function App() {
           />
           <Button
             onClick={() => {
+              setStop(true)
               stopRtsp()
-              // TODO:暂时使用此方法,后续查找停止函数循环调用
-              setTimeout(() => {
-                window.location.reload()
-              }, 500);
             }}
             type='primary' danger>停止</Button>
+          <Button
+            onClick={() => {
+              setVideomap([])
+              setAudiomap([])
+            }}
+            type='primary' danger>清空</Button>
           <div style={{ width: '100%', height: window.innerHeight - 60, overflowY: 'scroll', border: '1px solid #ccc' }}>
             <div>------video------</div>
             {
