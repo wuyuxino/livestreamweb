@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.6.1",
     "@cycjimmy/jsmpeg-player": "^6.1.2",
     "antd": "^5.23.1",
     "axios": "^1.7.9",
@@ -12,6 +13,7 @@
     "jsmpeg": "^1.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-photo-view": "^1.2.7",
     "react-scripts": "5.0.1",
     "rtsp-stream": "^1.0.0",
     "web-vitals": "^4.2.4"
