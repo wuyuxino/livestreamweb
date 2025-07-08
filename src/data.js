@@ -1,5 +1,5 @@
 // 模拟审核结果数据
-const mnsj = [
+const mnsj1 = [
     {
         "userName": "testjxm",
         "taskId": "rcjmgvg8qmknipv6qbf",
@@ -2515,6 +2515,2159 @@ const mnsj = [
         ]
     }
 ]
+
+
+const mnsj =  [
+       {
+            "userName": "testjxm",
+            "taskId": "rghidb5fn4ypxugm0nv",
+            "source": "http://console.jfjmz.soap.com/web/0/f5c8f852695f3ac2c4e8685bc8c50c7e/2024/12/11/c1d8024861744647ab8b124e1e2b297a_640_360.mp4",
+            "url": "http://10.1.65.91:8701/videoai-middle/aec3eeb370ed0a4b6b1aea52ae03898c/rghidb5fn4ypxugm0nv/video.mp4",
+            "description": "",
+            "preset": "推荐策略",
+            "presetId": 22,
+            "status": "SUCCESS",
+            "label": "NORMAL",
+            "duration": 10,
+            "notification": "",
+            "icrCheckResults": [],
+            "createTime": "2025-07-08T00:37:56Z",
+            "startTime": "2025-07-08T00:37:57Z",
+            "finishTime": "2025-07-08T00:38:29Z",
+            "streamId": "",
+            "callbackType": "vcr",
+            "ocrResults": [
+                {
+                    "text": "主标题副标题 数据来源：某组织 ",
+                    "complex": false,
+                    "timeInSeconds": 0
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 820.00单位 1400 1300 1200 1100 1000 900 800 2014 2015 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 1
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 932.00单位 1400 1300 1200 1100 1000 900 800 20142015 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 2
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 901.00单位 1400 1300 1200 1100 1000 900 800 20142015 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 3
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 901.00单位 1400 1300 1200 1100 1000 900 800 2014 2015 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 4
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 934.00单位 1400 1300 1200 1100 1000 900 800 2014 2015 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 5
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 1290.00单位 1400 1300 1200 1100 1000 900 800 2014201 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 6
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 1328.86单位 1400 1300 1200 1100 1000 900 800 2014201 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 7
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 1330.00单位 1400 1300 1200 1100 1000 900 800 2014201 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 8
+                },
+                {
+                    "text": "主标题 副标题 数据来源：某组织 1320.00单位 1400 1300 1200 1100 1000 900 800 2014201 201620172018 20192020 ",
+                    "complex": false,
+                    "timeInSeconds": 9
+                }
+            ]
+        },
+        {
+            "userName": "testjxm",
+            "taskId": "rgguwriyuep77asyuzi",
+            "source": "http://console.jfjmz.soap.com/web/0/f5c8f852695f3ac2c4e8685bc8c50c7e/2025/07/01/82c71bdc87db4626998cffedeeac2cec/82c71bdc87db4626998cffedeeac2cec_360p.mp4",
+            "description": "",
+            "preset": "推荐策略",
+            "presetId": 22,
+            "status": "SUCCESS",
+            "label": "REJECT",
+            "duration": 104,
+            "notification": "",
+            "icrCheckResults": [
+                {
+                    "presetType": "imageAudit",
+                    "type": "terrorArmyForce",
+                    "presetTypeDesc": "图像审核",
+                    "typeTitle": "军事部队",
+                    "topType": "imgTerror",
+                    "topTypeTitle": "暴恐",
+                    "items": [
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 17,
+                            "startTimeInSeconds": 17,
+                            "endTimeInSeconds": 27,
+                            "confidence": 0.9821897157971564,
+                            "label": "REJECT",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00017.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 29,
+                            "startTimeInSeconds": 29,
+                            "endTimeInSeconds": 31,
+                            "confidence": 0.9698992864591605,
+                            "label": "REJECT",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00029.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 0,
+                            "startTimeInSeconds": 0,
+                            "endTimeInSeconds": 1,
+                            "confidence": 0.9728466336235303,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00000.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 9,
+                            "startTimeInSeconds": 9,
+                            "endTimeInSeconds": 10,
+                            "confidence": 0.9677976840167429,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00009.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 33,
+                            "startTimeInSeconds": 33,
+                            "endTimeInSeconds": 35,
+                            "confidence": 0.9736720204274362,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00033.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 39,
+                            "startTimeInSeconds": 39,
+                            "endTimeInSeconds": 40,
+                            "confidence": 0.9797131691954082,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00039.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 42,
+                            "startTimeInSeconds": 42,
+                            "endTimeInSeconds": 44,
+                            "confidence": 0.9866615675317444,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00042.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 47,
+                            "startTimeInSeconds": 47,
+                            "endTimeInSeconds": 50,
+                            "confidence": 0.9667226338714224,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00047.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 58,
+                            "startTimeInSeconds": 58,
+                            "endTimeInSeconds": 62,
+                            "confidence": 0.9914538559989079,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00058.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 64,
+                            "startTimeInSeconds": 64,
+                            "endTimeInSeconds": 67,
+                            "confidence": 0.9955817311419616,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00064.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 76,
+                            "startTimeInSeconds": 76,
+                            "endTimeInSeconds": 84,
+                            "confidence": 0.9974598852852778,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00076.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 89,
+                            "startTimeInSeconds": 89,
+                            "endTimeInSeconds": 101,
+                            "confidence": 0.9992718950552444,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00089.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 5,
+                            "startTimeInSeconds": 5,
+                            "endTimeInSeconds": 8,
+                            "confidence": 0.945705701048042,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00005.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 10,
+                            "startTimeInSeconds": 10,
+                            "endTimeInSeconds": 12,
+                            "confidence": 0.8774928498998468,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00010.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 14,
+                            "startTimeInSeconds": 14,
+                            "endTimeInSeconds": 16,
+                            "confidence": 0.9228148072961581,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00014.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 18,
+                            "startTimeInSeconds": 18,
+                            "endTimeInSeconds": 19,
+                            "confidence": 0.9356925813675193,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00018.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 22,
+                            "startTimeInSeconds": 22,
+                            "endTimeInSeconds": 25,
+                            "confidence": 0.9494381597546491,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00022.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 28,
+                            "startTimeInSeconds": 28,
+                            "endTimeInSeconds": 29,
+                            "confidence": 0.8892724359270859,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00028.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 35,
+                            "startTimeInSeconds": 35,
+                            "endTimeInSeconds": 38,
+                            "confidence": 0.9199686283191117,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00035.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 41,
+                            "startTimeInSeconds": 41,
+                            "endTimeInSeconds": 42,
+                            "confidence": 0.9119382976570487,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00041.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 52,
+                            "startTimeInSeconds": 52,
+                            "endTimeInSeconds": 53,
+                            "confidence": 0.6086976279485016,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00052.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 67,
+                            "startTimeInSeconds": 67,
+                            "endTimeInSeconds": 70,
+                            "confidence": 0.9421773002212186,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00067.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 1,
+                            "startTimeInSeconds": 1,
+                            "endTimeInSeconds": 3,
+                            "confidence": 0.8769503841778726,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00001.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 32,
+                            "startTimeInSeconds": 32,
+                            "endTimeInSeconds": 33,
+                            "confidence": 0.8801131526930951,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00032.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 44,
+                            "startTimeInSeconds": 44,
+                            "endTimeInSeconds": 47,
+                            "confidence": 0.8905690621958207,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00044.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 63,
+                            "startTimeInSeconds": 63,
+                            "endTimeInSeconds": 64,
+                            "confidence": 0.7611875285297494,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00063.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 75,
+                            "startTimeInSeconds": 75,
+                            "endTimeInSeconds": 76,
+                            "confidence": 0.8433414156119732,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00075.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 97,
+                            "startTimeInSeconds": 97,
+                            "endTimeInSeconds": 98,
+                            "confidence": 0.8280587523924072,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00097.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 101,
+                            "startTimeInSeconds": 101,
+                            "endTimeInSeconds": 102,
+                            "confidence": 0.8554620617102721,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00101.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "presetType": "audioTextAudit",
+                    "type": "spamTerror",
+                    "presetTypeDesc": "音频文本审核",
+                    "typeTitle": "暴恐违禁",
+                    "topType": "textTerror",
+                    "topTypeTitle": "暴恐违禁",
+                    "items": [
+                        {
+                            "presetType": "audioTextAudit",
+                            "type": "spamTerror",
+                            "timeInSeconds": 50,
+                            "startTimeInSeconds": 50,
+                            "endTimeInSeconds": 51,
+                            "confidence": 0.8404718041419983,
+                            "label": "REVIEW",
+                            "extra": "暴恐违禁",
+                            "evidence": {
+                                "originalText": "箭炮对外射击。，"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "presetType": "imageTextAudit",
+                    "type": "spamContact",
+                    "presetTypeDesc": "图文审核",
+                    "typeTitle": "联系方式",
+                    "topType": "textPopularize",
+                    "topTypeTitle": "广告",
+                    "items": [
+                        {
+                            "presetType": "imageTextAudit",
+                            "type": "spamContact",
+                            "subType": "contactWebsite",
+                            "subTypeTitle": "网址",
+                            "timeInSeconds": 101,
+                            "startTimeInSeconds": 101,
+                            "endTimeInSeconds": 104,
+                            "confidence": 1.0,
+                            "label": "REJECT",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rgguwriyuep77asyuzi/thumbnails/00101.jpg",
+                                "location": {
+                                    "leftOffsetInPixel": 173,
+                                    "topOffsetInPixel": 192,
+                                    "widthInPixel": 124,
+                                    "heightInPixel": 18
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "createTime": "2025-07-07T10:42:52Z",
+            "startTime": "2025-07-07T10:42:53Z",
+            "finishTime": "2025-07-07T10:44:57Z",
+            "streamId": "",
+            "callbackType": "vcr",
+            "ocrResults": [
+                {
+                    "text": "八一视频 905 海军某作皮援舰支管平湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 0
+                },
+                {
+                    "text": "八一视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 1
+                },
+                {
+                    "text": "八一视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 2
+                },
+                {
+                    "text": "视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 3
+                },
+                {
+                    "text": "视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 4
+                },
+                {
+                    "text": "视频 海军某作战支援舰支队查于湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 5
+                },
+                {
+                    "text": "视频 乐作 ",
+                    "complex": false,
+                    "timeInSeconds": 6
+                },
+                {
+                    "text": "八一视频 好 ",
+                    "complex": false,
+                    "timeInSeconds": 7
+                },
+                {
+                    "text": "六一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 8
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 9
+                },
+                {
+                    "text": "八一视频 上 ",
+                    "complex": false,
+                    "timeInSeconds": 10
+                },
+                {
+                    "text": "八一视频 上 ",
+                    "complex": false,
+                    "timeInSeconds": 11
+                },
+                {
+                    "text": "八一视频 I格 ",
+                    "complex": false,
+                    "timeInSeconds": 12
+                },
+                {
+                    "text": "八一视频 ← ",
+                    "complex": false,
+                    "timeInSeconds": 13
+                },
+                {
+                    "text": "一视频 一的 ",
+                    "complex": false,
+                    "timeInSeconds": 14
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 15
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 16
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 17
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 18
+                },
+                {
+                    "text": "八一 视频 上 ",
+                    "complex": false,
+                    "timeInSeconds": 19
+                },
+                {
+                    "text": "八一视频 上 官 ",
+                    "complex": false,
+                    "timeInSeconds": 20
+                },
+                {
+                    "text": "八一视频 官 ",
+                    "complex": false,
+                    "timeInSeconds": 21
+                },
+                {
+                    "text": "八一视频 上 叶 官 ",
+                    "complex": false,
+                    "timeInSeconds": 22
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 23
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 24
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 25
+                },
+                {
+                    "text": "A 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 26
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 27
+                },
+                {
+                    "text": "1 ",
+                    "complex": false,
+                    "timeInSeconds": 28
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 29
+                },
+                {
+                    "text": "视频 0 ",
+                    "complex": false,
+                    "timeInSeconds": 30
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 31
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 32
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 33
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 34
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 35
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 36
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 37
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 38
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 39
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 40
+                },
+                {
+                    "text": "视频 C ",
+                    "complex": false,
+                    "timeInSeconds": 41
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 42
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 43
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 44
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 45
+                },
+                {
+                    "text": "八一 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 46
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 47
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 48
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 49
+                },
+                {
+                    "text": "八一视频 刮门长 海军查干湖舰枪炮部门 陈 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 50
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 中角 ",
+                    "complex": false,
+                    "timeInSeconds": 51
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 52
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 53
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 54
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 55
+                },
+                {
+                    "text": "八一视频 副部门 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 56
+                },
+                {
+                    "text": "八一视频 刮部门长 海军查干舰枪部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 57
+                },
+                {
+                    "text": "八一视频 173 ",
+                    "complex": false,
+                    "timeInSeconds": 58
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 59
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 60
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 61
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 62
+                },
+                {
+                    "text": "八 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 63
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 64
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 65
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 66
+                },
+                {
+                    "text": "A 视频 T 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 67
+                },
+                {
+                    "text": "A 视频 间 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 68
+                },
+                {
+                    "text": "A 视频 公 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 69
+                },
+                {
+                    "text": "视频 医 T 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 70
+                },
+                {
+                    "text": "视频 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 71
+                },
+                {
+                    "text": "一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 72
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 73
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 74
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 75
+                },
+                {
+                    "text": "A 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 76
+                },
+                {
+                    "text": "一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 77
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 78
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 79
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 80
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 81
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 82
+                },
+                {
+                    "text": "八一视频 H ",
+                    "complex": false,
+                    "timeInSeconds": 83
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 84
+                },
+                {
+                    "text": "八一视频 食 中国 中央电视台 ",
+                    "complex": false,
+                    "timeInSeconds": 85
+                },
+                {
+                    "text": "八一视频 刮舰长 海军查干湖舰 中国 中央电视台 ",
+                    "complex": false,
+                    "timeInSeconds": 86
+                },
+                {
+                    "text": "妆 品系业 3 ",
+                    "complex": false,
+                    "timeInSeconds": 87
+                },
+                {
+                    "text": "八一视频 副舰长 海军查干湖舰 中国 中夹电视台 ",
+                    "complex": false,
+                    "timeInSeconds": 88
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 89
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 90
+                },
+                {
+                    "text": "八一视频 S6 ",
+                    "complex": false,
+                    "timeInSeconds": 91
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 92
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 93
+                },
+                {
+                    "text": "的 八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 94
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 95
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 96
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 97
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 98
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 99
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 100
+                },
+                {
+                    "text": "中国军网 八一视频 WWW.81.CN ",
+                    "complex": false,
+                    "timeInSeconds": 101
+                },
+                {
+                    "text": "中国军网 八一视频 WWW.81.CN ",
+                    "complex": false,
+                    "timeInSeconds": 102
+                },
+                {
+                    "text": "中国军网 八一视频 WWW.81.CN ",
+                    "complex": false,
+                    "timeInSeconds": 103
+                }
+            ]
+        },
+        {
+            "userName": "testjxm",
+            "taskId": "rggu4n752x3ptrh3ds9",
+            "source": "http://console.jfjmz.soap.com/web/0/f5c8f852695f3ac2c4e8685bc8c50c7e/2025/07/01/82c71bdc87db4626998cffedeeac2cec/82c71bdc87db4626998cffedeeac2cec_360p.mp4",
+            "description": "",
+            "preset": "推荐策略",
+            "presetId": 22,
+            "status": "SUCCESS",
+            "label": "REJECT",
+            "duration": 104,
+            "notification": "",
+            "icrCheckResults": [
+                {
+                    "presetType": "imageAudit",
+                    "type": "terrorArmyForce",
+                    "presetTypeDesc": "图像审核",
+                    "typeTitle": "军事部队",
+                    "topType": "imgTerror",
+                    "topTypeTitle": "暴恐",
+                    "items": [
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 17,
+                            "startTimeInSeconds": 17,
+                            "endTimeInSeconds": 27,
+                            "confidence": 0.9821897157971564,
+                            "label": "REJECT",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00017.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 29,
+                            "startTimeInSeconds": 29,
+                            "endTimeInSeconds": 31,
+                            "confidence": 0.9698992864591605,
+                            "label": "REJECT",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00029.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 0,
+                            "startTimeInSeconds": 0,
+                            "endTimeInSeconds": 1,
+                            "confidence": 0.9728466336235303,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00000.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 9,
+                            "startTimeInSeconds": 9,
+                            "endTimeInSeconds": 10,
+                            "confidence": 0.9677976840167429,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00009.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 33,
+                            "startTimeInSeconds": 33,
+                            "endTimeInSeconds": 35,
+                            "confidence": 0.9736720204274362,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00033.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 39,
+                            "startTimeInSeconds": 39,
+                            "endTimeInSeconds": 40,
+                            "confidence": 0.9797131691954082,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00039.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 42,
+                            "startTimeInSeconds": 42,
+                            "endTimeInSeconds": 44,
+                            "confidence": 0.9866615675317444,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00042.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 47,
+                            "startTimeInSeconds": 47,
+                            "endTimeInSeconds": 50,
+                            "confidence": 0.9667226338714224,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00047.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 58,
+                            "startTimeInSeconds": 58,
+                            "endTimeInSeconds": 62,
+                            "confidence": 0.9914538559989079,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00058.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 64,
+                            "startTimeInSeconds": 64,
+                            "endTimeInSeconds": 67,
+                            "confidence": 0.9955817311419616,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00064.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 76,
+                            "startTimeInSeconds": 76,
+                            "endTimeInSeconds": 84,
+                            "confidence": 0.9974598852852778,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00076.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 89,
+                            "startTimeInSeconds": 89,
+                            "endTimeInSeconds": 101,
+                            "confidence": 0.9992718950552444,
+                            "label": "REJECT",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00089.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 5,
+                            "startTimeInSeconds": 5,
+                            "endTimeInSeconds": 8,
+                            "confidence": 0.945705701048042,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00005.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 10,
+                            "startTimeInSeconds": 10,
+                            "endTimeInSeconds": 12,
+                            "confidence": 0.8774928498998468,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00010.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 14,
+                            "startTimeInSeconds": 14,
+                            "endTimeInSeconds": 16,
+                            "confidence": 0.9228148072961581,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00014.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 18,
+                            "startTimeInSeconds": 18,
+                            "endTimeInSeconds": 19,
+                            "confidence": 0.9356925813675193,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00018.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 22,
+                            "startTimeInSeconds": 22,
+                            "endTimeInSeconds": 25,
+                            "confidence": 0.9494381597546491,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00022.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 28,
+                            "startTimeInSeconds": 28,
+                            "endTimeInSeconds": 29,
+                            "confidence": 0.8892724359270859,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00028.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 35,
+                            "startTimeInSeconds": 35,
+                            "endTimeInSeconds": 38,
+                            "confidence": 0.9199686283191117,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00035.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 41,
+                            "startTimeInSeconds": 41,
+                            "endTimeInSeconds": 42,
+                            "confidence": 0.9119382976570487,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00041.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 52,
+                            "startTimeInSeconds": 52,
+                            "endTimeInSeconds": 53,
+                            "confidence": 0.6086976279485016,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00052.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorPolice",
+                            "subTypeTitle": "警察部队",
+                            "timeInSeconds": 67,
+                            "startTimeInSeconds": 67,
+                            "endTimeInSeconds": 70,
+                            "confidence": 0.9421773002212186,
+                            "label": "REVIEW",
+                            "extra": "警察部队",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00067.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 1,
+                            "startTimeInSeconds": 1,
+                            "endTimeInSeconds": 3,
+                            "confidence": 0.8769503841778726,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00001.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 32,
+                            "startTimeInSeconds": 32,
+                            "endTimeInSeconds": 33,
+                            "confidence": 0.8801131526930951,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00032.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 44,
+                            "startTimeInSeconds": 44,
+                            "endTimeInSeconds": 47,
+                            "confidence": 0.8905690621958207,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00044.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 63,
+                            "startTimeInSeconds": 63,
+                            "endTimeInSeconds": 64,
+                            "confidence": 0.7611875285297494,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00063.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 75,
+                            "startTimeInSeconds": 75,
+                            "endTimeInSeconds": 76,
+                            "confidence": 0.8433414156119732,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00075.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 97,
+                            "startTimeInSeconds": 97,
+                            "endTimeInSeconds": 98,
+                            "confidence": 0.8280587523924072,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00097.jpg"
+                            }
+                        },
+                        {
+                            "presetType": "imageAudit",
+                            "type": "terrorArmyForce",
+                            "subType": "terrorWeapon",
+                            "subTypeTitle": "军事武器",
+                            "timeInSeconds": 101,
+                            "startTimeInSeconds": 101,
+                            "endTimeInSeconds": 102,
+                            "confidence": 0.8554620617102721,
+                            "label": "REVIEW",
+                            "extra": "大型军事武器",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00101.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "presetType": "audioTextAudit",
+                    "type": "spamTerror",
+                    "presetTypeDesc": "音频文本审核",
+                    "typeTitle": "暴恐违禁",
+                    "topType": "textTerror",
+                    "topTypeTitle": "暴恐违禁",
+                    "items": [
+                        {
+                            "presetType": "audioTextAudit",
+                            "type": "spamTerror",
+                            "timeInSeconds": 50,
+                            "startTimeInSeconds": 50,
+                            "endTimeInSeconds": 51,
+                            "confidence": 0.8404718041419983,
+                            "label": "REVIEW",
+                            "extra": "暴恐违禁",
+                            "evidence": {
+                                "originalText": "箭炮对外射击。，"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "presetType": "imageTextAudit",
+                    "type": "spamContact",
+                    "presetTypeDesc": "图文审核",
+                    "typeTitle": "联系方式",
+                    "topType": "textPopularize",
+                    "topTypeTitle": "广告",
+                    "items": [
+                        {
+                            "presetType": "imageTextAudit",
+                            "type": "spamContact",
+                            "subType": "contactWebsite",
+                            "subTypeTitle": "网址",
+                            "timeInSeconds": 101,
+                            "startTimeInSeconds": 101,
+                            "endTimeInSeconds": 104,
+                            "confidence": 1.0,
+                            "label": "REJECT",
+                            "evidence": {
+                                "thumbnail": "http://10.1.65.91:8701/videoai-middle/89515263c5c1787701c0e262e93e7269/rggu4n752x3ptrh3ds9/thumbnails/00101.jpg",
+                                "location": {
+                                    "leftOffsetInPixel": 173,
+                                    "topOffsetInPixel": 192,
+                                    "widthInPixel": 124,
+                                    "heightInPixel": 18
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "createTime": "2025-07-07T10:34:48Z",
+            "startTime": "2025-07-07T10:34:50Z",
+            "finishTime": "2025-07-07T10:36:55Z",
+            "streamId": "",
+            "callbackType": "vcr",
+            "ocrResults": [
+                {
+                    "text": "八一视频 905 海军某作皮援舰支管平湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 0
+                },
+                {
+                    "text": "八一视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 1
+                },
+                {
+                    "text": "八一视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 2
+                },
+                {
+                    "text": "视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 3
+                },
+                {
+                    "text": "视频 海军某作战支援舰支队查干湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 4
+                },
+                {
+                    "text": "视频 海军某作战支援舰支队查于湖舰 展开全要素海上综合作战支援演练 ",
+                    "complex": false,
+                    "timeInSeconds": 5
+                },
+                {
+                    "text": "视频 乐作 ",
+                    "complex": false,
+                    "timeInSeconds": 6
+                },
+                {
+                    "text": "八一视频 好 ",
+                    "complex": false,
+                    "timeInSeconds": 7
+                },
+                {
+                    "text": "六一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 8
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 9
+                },
+                {
+                    "text": "八一视频 上 ",
+                    "complex": false,
+                    "timeInSeconds": 10
+                },
+                {
+                    "text": "八一视频 上 ",
+                    "complex": false,
+                    "timeInSeconds": 11
+                },
+                {
+                    "text": "八一视频 I格 ",
+                    "complex": false,
+                    "timeInSeconds": 12
+                },
+                {
+                    "text": "八一视频 ← ",
+                    "complex": false,
+                    "timeInSeconds": 13
+                },
+                {
+                    "text": "一视频 一的 ",
+                    "complex": false,
+                    "timeInSeconds": 14
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 15
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 16
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 17
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 18
+                },
+                {
+                    "text": "八一 视频 上 ",
+                    "complex": false,
+                    "timeInSeconds": 19
+                },
+                {
+                    "text": "八一视频 上 官 ",
+                    "complex": false,
+                    "timeInSeconds": 20
+                },
+                {
+                    "text": "八一视频 官 ",
+                    "complex": false,
+                    "timeInSeconds": 21
+                },
+                {
+                    "text": "八一视频 上 叶 官 ",
+                    "complex": false,
+                    "timeInSeconds": 22
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 23
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 24
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 25
+                },
+                {
+                    "text": "A 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 26
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 27
+                },
+                {
+                    "text": "1 ",
+                    "complex": false,
+                    "timeInSeconds": 28
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 29
+                },
+                {
+                    "text": "视频 0 ",
+                    "complex": false,
+                    "timeInSeconds": 30
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 31
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 32
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 33
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 34
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 35
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 36
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 37
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 38
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 39
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 40
+                },
+                {
+                    "text": "视频 C ",
+                    "complex": false,
+                    "timeInSeconds": 41
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 42
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 43
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 44
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 45
+                },
+                {
+                    "text": "八一 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 46
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 47
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 48
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 49
+                },
+                {
+                    "text": "八一视频 刮门长 海军查干湖舰枪炮部门 陈 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 50
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 中角 ",
+                    "complex": false,
+                    "timeInSeconds": 51
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 52
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 53
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 54
+                },
+                {
+                    "text": "八一视频 副部门长 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 55
+                },
+                {
+                    "text": "八一视频 副部门 海军查干湖舰枪炮部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 56
+                },
+                {
+                    "text": "八一视频 刮部门长 海军查干舰枪部门 陈树 中国 ",
+                    "complex": false,
+                    "timeInSeconds": 57
+                },
+                {
+                    "text": "八一视频 173 ",
+                    "complex": false,
+                    "timeInSeconds": 58
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 59
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 60
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 61
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 62
+                },
+                {
+                    "text": "八 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 63
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 64
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 65
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 66
+                },
+                {
+                    "text": "A 视频 T 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 67
+                },
+                {
+                    "text": "A 视频 间 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 68
+                },
+                {
+                    "text": "A 视频 公 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 69
+                },
+                {
+                    "text": "视频 医 T 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 70
+                },
+                {
+                    "text": "视频 05-02 ",
+                    "complex": false,
+                    "timeInSeconds": 71
+                },
+                {
+                    "text": "一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 72
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 73
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 74
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 75
+                },
+                {
+                    "text": "A 视频 ",
+                    "complex": false,
+                    "timeInSeconds": 76
+                },
+                {
+                    "text": "一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 77
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 78
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 79
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 80
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 81
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 82
+                },
+                {
+                    "text": "八一视频 H ",
+                    "complex": false,
+                    "timeInSeconds": 83
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 84
+                },
+                {
+                    "text": "八一视频 食 中国 中央电视台 ",
+                    "complex": false,
+                    "timeInSeconds": 85
+                },
+                {
+                    "text": "八一视频 刮舰长 海军查干湖舰 中国 中央电视台 ",
+                    "complex": false,
+                    "timeInSeconds": 86
+                },
+                {
+                    "text": "妆 品系业 3 ",
+                    "complex": false,
+                    "timeInSeconds": 87
+                },
+                {
+                    "text": "八一视频 副舰长 海军查干湖舰 中国 中夹电视台 ",
+                    "complex": false,
+                    "timeInSeconds": 88
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 89
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 90
+                },
+                {
+                    "text": "八一视频 S6 ",
+                    "complex": false,
+                    "timeInSeconds": 91
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 92
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 93
+                },
+                {
+                    "text": "的 八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 94
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 95
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 96
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 97
+                },
+                {
+                    "text": "视频 ",
+                    "complex": false,
+                    "timeInSeconds": 98
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 99
+                },
+                {
+                    "text": "八一视频 ",
+                    "complex": false,
+                    "timeInSeconds": 100
+                },
+                {
+                    "text": "中国军网 八一视频 WWW.81.CN ",
+                    "complex": false,
+                    "timeInSeconds": 101
+                },
+                {
+                    "text": "中国军网 八一视频 WWW.81.CN ",
+                    "complex": false,
+                    "timeInSeconds": 102
+                },
+                {
+                    "text": "中国军网 八一视频 WWW.81.CN ",
+                    "complex": false,
+                    "timeInSeconds": 103
+                }
+            ]
+        }
+    ]
 const presetType = new Map([
     ['textAudit', '文本审核'],
     ['imageAudit', '图像审核'],
