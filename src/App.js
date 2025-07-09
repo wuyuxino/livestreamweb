@@ -12,7 +12,7 @@ import { mnsj, presetType, oneType, subType } from './data';
 const { Search } = Input;
 
 function App() {
-  const [stop, setStop] = useState(true);
+  const [stop, setStop] = useState(false);
   const [showvideo, setShowvideo] = useState(false);
   const [videomap, setVideomap] = useState([]);
   const [audiomap, setAudiomap] = useState([]);
